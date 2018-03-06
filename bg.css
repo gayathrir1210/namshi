@@ -1,0 +1,106 @@
+*
+{
+	margin=0;
+	padding=0;
+	font-family: Arial;
+}
+
+header
+{
+	background-image: url(wall.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+
+.main-navigate
+{
+	float: right;
+	list-style: none;
+	margin-top: 20px;
+}
+
+.main-navigate li 
+{
+	display: inline-block;
+}
+
+.main-navigate li a
+{
+	color: black;
+	padding: 20px 5px;
+	font-family: century schoolbook l;
+	text-decoration: none;
+}
+
+.main-navigate li a:hover
+{
+	border: none;
+}
+
+body
+{
+	font-family: monospace;
+}
+
+.row
+{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.quote
+{
+	position: absolute;
+	width:1000px;
+	margin-left: 0;
+	margin-top:0;
+}
+
+h1
+{
+	color: black;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 350px;
+	margin-left: 400px;
+}
+
+.links
+{
+	margin-top: 30px;
+	margin-left: 600px;
+}
+
+.link1
+{
+	border: 1px solid red;
+	padding: 5px 30px;
+	color: black;
+	text-decoration:none;
+	margin-right: 5px;
+	font-size: 15px;
+	font-family: URW Chancery L;
+}
+
+.link2
+{
+	border: 1px solid red;
+	padding: 5px 30px;
+	color: black;
+	margin-right: 5px;
+	font-size: 15px;
+	font-family: URW Chancery L;
+	text-decoration: none;
+	
+}
+
+.link1:hover
+{
+	background-color: lightgray;
+}
+
+.link2:hover
+{
+	background-color: orange;
+}
